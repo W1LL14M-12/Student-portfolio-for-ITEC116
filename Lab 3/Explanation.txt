@@ -1,0 +1,18 @@
+This FastAPI code creates an API that helps us work with posts and comments from a sample data source. It has several endpoints to get data:
+
+Get All Posts: The /posts/ endpoint fetches all posts or a specific post if you provide a postId.
+
+Get All Comments: The /comments/ endpoint does the same for comments, either getting all comments or just those for a specific post.
+
+User-Specific Posts: The /formatted_posts/{userID} endpoint gets all posts by a specific user and formats the data nicely.
+
+Comments for a Specific Post: The /formatted_comment/{postID} endpoint gets comments for a specific post and formats them.
+
+Detailed User Posts: The new /detailed_post/{userID} endpoint combines everything. It fetches all posts for a user and includes all comments for each of those posts in the response.
+
+The code uses the requests library to fetch data from a placeholder API and formats it using Python dictionaries. This way, you get a clear view of what each user has posted and what comments those posts received.
+
+Overall, it's a handy way to explore and organize posts and comments based on users!
+
+\\\\\\\\\\\******DISCLAIMER******\\\\\\\\\\\\\\\\\\
+The Updated contents of the Python file, and the Explanation which was based on my understanding of the activity given. was made with the the help of ChatGPT.

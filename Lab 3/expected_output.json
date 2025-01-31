@@ -1,0 +1,32 @@
+{
+    "userID": 1,
+    "posts": [
+        {
+            "post_title": "Post Title 1",
+            "post_body": "This is the body of the first post.",
+            "comments": [
+                {
+                    "commenter_email": "user1@example.com",
+                    "commenter_name": "User One",
+                    "comment": "This is a comment on the first post."
+                },
+                {
+                    "commenter_email": "user2@example.com",
+                    "commenter_name": "User Two",
+                    "comment": "Another comment on the first post."
+                }
+            ]
+        },
+        {
+            "post_title": "Post Title 2",
+            "post_body": "This is the body of the second post.",
+            "comments": [
+                {
+                    "commenter_email": "user3@example.com",
+                    "commenter_name": "User Three",
+                    "comment": "A comment on the second post."
+                }
+            ]
+        }
+    ]
+}
